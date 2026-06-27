@@ -11,3 +11,9 @@ y_enc= label_enc.fit_transform(y)
 
 y_enc
 label_enc.inverse_transform(y_enc)
+
+enc= OneHotEncoder()
+enc_df= pd.DataFrame(enc.fit_transform(df[["Purchased"]]).toarray())
+
+enc_df
+
