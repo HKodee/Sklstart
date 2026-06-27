@@ -17,3 +17,6 @@ enc_df= pd.DataFrame(enc.fit_transform(df[["Purchased"]]).toarray())
 
 enc_df
 
+enc= OneHotEncoder()
+enc_df= pd.DataFrame(enc.fit_transform(df[["Color"]]).toarray())
+enc_df
