@@ -6,3 +6,6 @@ df = pd.DataFrame({
     'C1': [1,2,3,4,5],
     'C2': [2,4,6,8,10]
 })
+
+m = MinMaxScaler()
+mm = m.fit_transform(df)
