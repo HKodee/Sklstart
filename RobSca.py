@@ -12,3 +12,8 @@ plt.scatter(range(len(data)),data,color="blue")
 plt.title("Original Data")
 plt.ylabel("Value")
 
+
+plt.subplot(1,3,2)
+plt.scatter(range(len(rob_scaled)),rob_scaled,color="green")
+plt.title("After Robust")
+plt.show()
